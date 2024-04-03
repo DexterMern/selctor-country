@@ -1,0 +1,55 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url('pexels-irina-iriser-1090972.jpg');
+    background-size: cover;
+}
+
+.container {
+    background-color: rgba(240, 248, 255, 0.639);
+    display: grid;
+    width: 50%;
+    height: fit-content;
+    position: absolute;
+    top: 20%;
+    left: 24%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    font-size: 30px;
+    gap: 20px;
+    padding: 30px;
+}
+
+.label-1 {
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+#name-input{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.label-2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+#last-name{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.label-3{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+#country{
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+.label-4{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+#city{
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
